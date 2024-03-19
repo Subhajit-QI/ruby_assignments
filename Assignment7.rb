@@ -4,5 +4,5 @@ arr = ["abcde", "abdf", "adeab", "abdgse", "bdefa", "bacdef"]
 
 words_with_bd = arr.select { |word| word.include?("bd") }
 
-puts "Words containing 'bd':"
-puts words_with_bd
+
+puts "Words containing 'bd': #{words_with_bd}"
