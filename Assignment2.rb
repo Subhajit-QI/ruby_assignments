@@ -1,3 +1,4 @@
+#Write a program to convert ['abc bcd', 'mno pqr xyz', 'efg'] to ['abc', 'bcd', 'mno', 'pqr', 'xyz', 'efg']
 data = [
   { id: 1, marks: 80 },
   { id: 2, marks: 60 },
