@@ -1,5 +1,4 @@
-#Write a program to get first element which is non zero number.
-arr = [0, 10, 0, 0, 20]
+#Write a program to convert ['abc bcd', 'mno pqr xyz', 'efg'] to ['abc', 'bcd', 'mno', 'pqr', 'xyz', 'efg']
 input_array = ['abc bcd', 'mno pqr xyz', 'efg']
 
 result_array = input_array.flat_map { |string| string.split }
