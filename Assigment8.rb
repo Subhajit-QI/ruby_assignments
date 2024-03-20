@@ -8,7 +8,6 @@ class MyClass
   def self.object_count
     @@object_count 
   end
-  
 end
   
 puts MyClass.object_count 
