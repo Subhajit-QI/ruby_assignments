@@ -1,3 +1,4 @@
+#Write a class and define a class method which will return the object count of that class.
 class MyClass
   @@object_count = 0 
   
