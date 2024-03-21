@@ -1,18 +1,23 @@
-class Rectangle
-  def initialize(length, width)
-    @length = length
-    @width = width
+#Write a class and define a class method which will return the object count of that class.
+class MyClass
+  @@object_count = 0
+  
+  def self.increment_object_count
+    @@object_count += 1
   end
-    
-  def area
-    @length * @width
+  
+  def self.object_count
+    @@object_count
   end
-    
-  def perimeter
-    2 * (@length + @width)
+  
+  def initialize
+    MyClass.increment_object_count
   end
 end
-    
-rectangle = Rectangle.new(5, 3)
-puts "Area: #{rectangle.area}"
-puts "Perimeter: #{rectangle.perimeter}"
+  
+obj1 = MyClass.new
+obj2 = MyClass.new
+obj3 = MyClass.new
+  
+puts "Object count: #{MyClass.object_count}" 
+  
