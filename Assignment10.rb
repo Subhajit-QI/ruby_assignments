@@ -16,7 +16,7 @@ class Dog < Animal
   end
     
   def speak
-    super() 
+    super
     puts "#{@name} barks loudly!"
   end
 end
