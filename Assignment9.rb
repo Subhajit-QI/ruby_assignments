@@ -1,3 +1,4 @@
+# Write a class (with constructor) to define instance methods for getting area & perimeter of a rectangle.
 class Rectangle
   def initialize(length, width)
     @length = length
