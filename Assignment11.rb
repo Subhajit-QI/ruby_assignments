@@ -9,6 +9,7 @@ end
   
 module Module2
   def method_with_same_name
+    super
     puts "Method from Module2"
   end
 end
@@ -25,4 +26,3 @@ end
 my_object = MyClass.new
 my_object.use_module_methods
 
-  
