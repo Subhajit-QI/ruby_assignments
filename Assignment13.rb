@@ -14,5 +14,3 @@ end
 obj = MyClass.new
   
 obj.my_method
-
-  
