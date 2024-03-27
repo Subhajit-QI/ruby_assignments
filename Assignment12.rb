@@ -13,3 +13,4 @@ class MyClass
 end
   
 MyClass.my_method
+
