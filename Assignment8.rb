@@ -20,4 +20,5 @@ obj2 = MyClass.new
 obj3 = MyClass.new
   
 puts "Object count: #{MyClass.object_count}" 
+
   
